@@ -1,44 +1,40 @@
-class DisjointUnion:
-    def __init__(self, rows, cols):
-        self.root = {}
-        for i in range(-1, rows * 2):
-            for j in range(-1, cols * 2):
-                self.root[(i, j)] = (i, j)
-    
-    def find(self, x):
-        if self.root[x] != x:
-            self.root[x] = self.find(self.root[x])
-        return self.root[x]
-    
-    def union(self, x, y):
-        root_x = self.find(x)
-        root_y = self.find(y)
-        if root_x != root_y:
-            self.root[root_x] = root_y
-
 class Solution:
-    def hasValidPath(self, grid):
-        if not grid or not grid[0]:
-            return False
-        
+    class DisjointSet:
+        def __init__(self, n):
+            self.f = list(range(n))
+
+        def find(self, x):
+            if x == self.f[x]:
+                return x
+            self.f[x] = self.find(self.f[x])
+            return self.f[x]
+
+        def merge(self, x, y):
+            self.f[self.find(x)] = self.find(y)
+            
+    def hasValidPath(self, grid: List[List[int]]) -> bool:
         m, n = len(grid), len(grid[0])
-        dsu = DisjointUnion(m, n)
-        
-        connection_rules = {
-            1: [(0, -1), (0, 1)],   
-            2: [(-1, 0), (1, 0)],  
-            3: [(0, -1), (1, 0)],   
-            4: [(0, 1), (1, 0)],  
-            5: [(-1, 0), (0, -1)], 
-            6: [(-1, 0), (0, 1)]   
-        }
-        
+        patterns = [0, 0b1010, 0b0101, 0b1100, 0b0110, 0b1001, 0b0011]
+        dirs = [(-1, 0), (0, 1), (1, 0), (0, -1)]
+        ds = Solution.DisjointSet(m * n)
+
+        def getId(x, y):
+            return x * n + y
+
+        def handler(x, y):
+            pattern = patterns[grid[x][y]]
+            for i, (dx, dy) in enumerate(dirs):
+                if (pattern & (1 << i)) > 0:
+                    sx, sy = x + dx, y + dy
+                    if (
+                        0 <= sx < m
+                        and 0 <= sy < n
+                        and (patterns[grid[sx][sy]] & (1 << ((i + 2) % 4))) > 0
+                    ):
+                        ds.merge(getId(x, y), getId(sx, sy))
+
         for i in range(m):
             for j in range(n):
-                cell_type = grid[i][j]
-                for di, dj in connection_rules[cell_type]:
-                    dsu.union((i * 2, j * 2), (i * 2 + di, j * 2 + dj))
-        
-        start = (0, 0)
-        end = (m * 2 - 2, n * 2 - 2)
-        return dsu.find(start) == dsu.find(end)
+                handler(i, j)
+
+        return ds.find(getId(0, 0)) == ds.find(getId(m - 1, n - 1))
