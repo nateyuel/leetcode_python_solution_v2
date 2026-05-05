@@ -123,4 +123,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1559-detect-cycles-in-2d-grid) |
+## Linked List
+|  |
+| ------- |
+| [0061-rotate-list](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0061-rotate-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0061-rotate-list](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0061-rotate-list) |
 <!---LeetCode Topics End-->
