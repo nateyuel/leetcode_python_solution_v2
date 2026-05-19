@@ -9,7 +9,7 @@ class Solution:
                 if x % d == 0:
                     if len(temp) == 4:
                         return 0
-                        
+
                     temp.add(d)
                     temp.add(x // d)
 
@@ -20,6 +20,15 @@ class Solution:
         res = 0
 
         for num in nums:
-            res += divisors(num)
+            if mp[num] == 0:
+                curr_sum = divisors(num)
+                if curr_sum == 0:
+                    mp[num] = -1
+                else:
+                    mp[num] = curr_sum
+                    res += curr_sum
+            else:
+                if mp[num] != -1:
+                    res += mp[num]
 
         return res
