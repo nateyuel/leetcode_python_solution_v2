@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2452-words-within-two-edits-of-dictionary](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2540-minimum-common-value](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2553-separate-the-digits-in-an-array) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2751-robot-collisions](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2751-robot-collisions) |
 | [2784-check-if-array-is-good](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2784-check-if-array-is-good) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1345-jump-game-iv](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1345-jump-game-iv) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2540-minimum-common-value](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2540-minimum-common-value) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2784-check-if-array-is-good](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2784-check-if-array-is-good) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
@@ -171,4 +173,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0134-gas-station](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0134-gas-station) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 <!---LeetCode Topics End-->
