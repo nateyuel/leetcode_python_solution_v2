@@ -5,17 +5,17 @@ class Solution:
         store = set()
 
         for cand in arr1:
-            if cand in store:
-                continue
-                
-            for i in range(len(cand)):
-                store.add(cand[:i+1])
+            for i in range(len(cand), -1, -1):
+                if cand[:i] in store:
+                    break  
+                store.add(cand[:i])
         
         max_length = 0
 
         for cand in arr2:
-            for i in range(len(cand)):
-                if cand[:i+1] in store:
-                    max_length = max(max_length, i+1)
-        
+            for i in range(len(cand), -1, -1):
+                if cand[:i] in store:
+                    max_length = max(max_length, abs(i))
+                    break
+
         return max_length
