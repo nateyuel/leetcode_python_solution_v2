@@ -5,6 +5,9 @@ class Solution:
         store = set()
 
         for cand in arr1:
+            if cand in store:
+                continue
+                
             for i in range(len(cand)):
                 store.add(cand[:i+1])
         
