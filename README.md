@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
