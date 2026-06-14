@@ -1,18 +1,17 @@
 # Definition for singly-linked list.
-# class ListNode:
+# class Listhead:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
 class Solution:
-    def pairSum(self, head: Optional[ListNode]) -> int:
-        node = head
+    def pairSum(self, head: Optional[Listhead]) -> int:
         store = []
 
-        while node.next:
-            store.append(node.val)
-            node = node.next
+        while head.next:
+            store.append(head.val)
+            head = head.next
 
-        store.append(node.val)
+        store.append(head.val)
         n = len(store)
 
         for i in range((n//2), n):
