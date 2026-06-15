@@ -8,26 +8,13 @@ class Solution:
         if not head.next:
             return None
         
-        node = head
-        n = 1
+        slow = head
+        fast = head
 
-        while node.next:
-            n += 1
-            node = node.next
-        
-        m = n // 2
-
-        if m == 0:
-            return head.next
-        
-        curr = head
-
-        while m > 0:
-            if m == 1:
-                curr.next = curr.next.next
-            curr = curr.next
-
-            m -= 1
+        while fast and fast.next:
+            slow.next.prev = slow
+            slow = slow.next
+            fast = fast.next.next
+        slow.prev.next = slow.next
 
         return head
-            
