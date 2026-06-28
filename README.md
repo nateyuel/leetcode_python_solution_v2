@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1833-maximum-ice-cream-bars](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1840-maximum-building-height) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2126-destroying-asteroids](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1833-maximum-ice-cream-bars](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1840-maximum-building-height) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2126-destroying-asteroids](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2751-robot-collisions](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2751-robot-collisions) |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0134-gas-station) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1833-maximum-ice-cream-bars](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1833-maximum-ice-cream-bars) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2126-destroying-asteroids](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
