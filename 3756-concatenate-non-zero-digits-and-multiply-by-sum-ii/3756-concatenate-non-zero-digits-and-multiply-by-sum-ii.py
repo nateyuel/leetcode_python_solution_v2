@@ -1,57 +1,40 @@
+MOD = 10 ** 9 + 7
+pow10 = [1] * 100001
+
+for i in range(1, 100001):
+    pow10[i] = pow10[i - 1] * 10 % MOD
+
+
 class Solution:
-    MOD = 10 ** 9 + 7
     def sumAndMultiply(self, s: str, queries: List[List[int]]) -> List[int]:
         n = len(s)
 
-        pos = []
-        digits = []
-
         pref_sum = [0] * (n + 1)
+        pref_num = [0] * (n + 1)
+        pref_cnt = [0] * (n + 1)
 
         for i, ch in enumerate(s):
-            d = ord(ch) - 48
+            d = int(ch)
+
             pref_sum[i + 1] = pref_sum[i] + d
+            pref_cnt[i + 1] = pref_cnt[i] + (d != 0)
 
             if d:
-                pos.append(i)
-                digits.append(d)
+                pref_num[i + 1] = (pref_num[i] * 10 + d) % MOD
+            else:
+                pref_num[i + 1] = pref_num[i]
 
-        m = len(digits)
-
-        if m == 0:
-            return [0] * len(queries)
-
-        pw = [1] * (m + 1)
-        inv = [1] * (m + 1)
-
-        inv10 = pow(10, self.MOD - 2, self.MOD)
-
-        for i in range(1, m + 1):
-            pw[i] = pw[i - 1] * 10 % self.MOD
-            inv[i] = inv[i - 1] * inv10 % self.MOD
-
-        pref_num = [0] * (m + 1)
-        pref_digit = [0] * (m + 1)
-
-        for i, d in enumerate(digits):
-            pref_num[i + 1] = (pref_num[i] * 10 + d) % self.MOD
-            pref_digit[i + 1] = pref_digit[i] + d
-
-        ans = []
+        res = []
 
         for l, r in queries:
-            L = bisect_left(pos, l)
-            R = bisect_right(pos, r)
+            curr_sum = pref_sum[r + 1] - pref_sum[l]
+            length = pref_cnt[r + 1] - pref_cnt[l]
 
-            if L == R:
-                ans.append(0)
-                continue
+            curr_num = (
+                pref_num[r + 1]
+                - pref_num[l] * pow10[length]
+            ) % MOD
 
-            cnt = R - L
+            res.append(curr_num * curr_sum % MOD)
 
-            x = (pref_num[R] - pref_num[L] * pw[cnt]) % self.MOD
-            sm = pref_digit[R] - pref_digit[L]
-
-            ans.append(x * sm % self.MOD)
-
-        return ans
+        return res
