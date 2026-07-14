@@ -1,29 +1,16 @@
 class Solution:
     MOD = 1000000007
     def subsequencePairCount(self, nums: List[int]) -> int:
-        m = max(nums)
-        dp = [[0] * (m + 1) for _ in range(m + 1)]
-        dp[0][0] = 1
+        dp = {(0, 0): 1}
 
-        for num in nums:
-            ndp = [[0] * (m + 1) for _ in range(m + 1)]
+        for x in nums:
+            ndp = defaultdict(int)
 
-            for j in range(m + 1):
-                divisor1 = math.gcd(j, num)
-                for k in range(m + 1):
-                    val = dp[j][k]
-                    if val == 0:
-                        continue
-
-                    divisor2 = math.gcd(k, num)
-                    ndp[j][k] = (ndp[j][k] + val) % self.MOD
-                    ndp[divisor1][k] = (ndp[divisor1][k] + val) % self.MOD
-                    ndp[j][divisor2] = (ndp[j][divisor2] + val) % self.MOD
+            for (a, b), cnt in dp.items():
+                ndp[a, b] = (ndp[a, b] + cnt) % self.MOD
+                ndp[gcd(a, x), b] = (ndp[gcd(a, x), b] + cnt) % self.MOD
+                ndp[a, gcd(b, x)] = (ndp[a, gcd(b, x)] + cnt) % self.MOD
 
             dp = ndp
 
-        res = 0
-        for j in range(1, m + 1):
-            res = (res + dp[j][j]) % self.MOD
-
-        return res
+        return sum(cnt for (a, b), cnt in dp.items() if a == b and a) % self.MOD
