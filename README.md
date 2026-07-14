@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3161-block-placement-queries](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3161-block-placement-queries) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1840-maximum-building-height](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1840-maximum-building-height) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1301-number-of-paths-with-max-score) |
 | [1340-jump-game-v](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1871-jump-game-vii) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3472-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3472-longest-palindromic-subsequence-after-at-most-k-operations) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -393,4 +396,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3620-network-recovery-pathways](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3620-network-recovery-pathways) |
+## Number Theory
+|  |
+| ------- |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 <!---LeetCode Topics End-->
