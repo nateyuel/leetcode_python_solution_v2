@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0010-regular-expression-matching) |
 | [0657-robot-return-to-origin](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0657-robot-return-to-origin) |
 | [1189-maximum-number-of-balloons](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1189-maximum-number-of-balloons) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1871-jump-game-vii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1871-jump-game-vii) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2075-decode-the-slanted-ciphertext) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1189-maximum-number-of-balloons) |
 | [1331-rank-transform-of-an-array](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1331-rank-transform-of-an-array) |
 | [1345-jump-game-iv](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1345-jump-game-iv) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2540-minimum-common-value](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2540-minimum-common-value) |
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1871-jump-game-vii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1871-jump-game-vii) |
 ## Binary Indexed Tree
 |  |
