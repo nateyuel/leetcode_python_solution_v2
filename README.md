@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0396-rotate-function](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0396-rotate-function) |
 | [0874-walking-robot-simulation](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0874-walking-robot-simulation) |
+| [1260-shift-2d-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1288-remove-covered-intervals) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1301-number-of-paths-with-max-score](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1301-number-of-paths-with-max-score) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [1260-shift-2d-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1260-shift-2d-grid) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1301-number-of-paths-with-max-score](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1301-number-of-paths-with-max-score) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0657-robot-return-to-origin](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0657-robot-return-to-origin) |
 | [0874-walking-robot-simulation](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0874-walking-robot-simulation) |
+| [1260-shift-2d-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1260-shift-2d-grid) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2553-separate-the-digits-in-an-array](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2553-separate-the-digits-in-an-array) |
