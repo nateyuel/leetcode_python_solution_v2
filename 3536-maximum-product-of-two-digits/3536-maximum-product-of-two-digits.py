@@ -1,20 +1,19 @@
 class Solution:
     def maxProduct(self, n: int) -> int:
-        m1 = 0
-        m2 = 0
+        dg_1 = 0
+        dg_2 = 0
 
         while n > 0:
-            k = n % 10
-            if m1 > m2:
-                if k > m2:
-                    m2 = k
+            if dg_1 > dg_2:
+                if n % 10 > dg_2:
+                    dg_2 = n % 10
             else:
-                if k > m1:
-                    m1 = k
+                if n % 10 > dg_1:
+                    dg_1 = n % 10
 
             n //= 10
         
-        return m1 * m2
+        return dg_1 * dg_2
 
         
         
