@@ -1,56 +1,56 @@
 class Solution:
     def smallestPalindrome(self, s: str, k: int) -> str:
-
-        def comb(n: int, m: int, k_limit: int) -> int:
+        def count_combinations(n, r, limit):
+            r = min(r, n - r)
             res = 1
-            m = min(m, n - m)
 
-            for i in range(1, m + 1):
+            for i in range(1, r + 1):
                 res = res * (n - i + 1) // i
-                if res > k_limit:
-                    return k_limit + 1
+                if res > limit:
+                    return limit + 1
+
             return res
 
-        partn = len(s) // 2
-        bukt = [0] * 26
+        half = len(s) // 2
+        freq = [0] * 26
 
-        for i in range(partn):
-            bukt[ord(s[i]) - 97] += 1
+        for c in s[:half]:
+            freq[ord(c) - ord('a')] += 1
 
-        def permutations(rem: int) -> int:
+        def count_permutations(left):
             ways = 1
-            for i in range(26):
-                if bukt[i] == 0:
-                    continue
 
-                ways *= comb(rem, bukt[i], k)
-                if ways > k:
-                    break
-                rem -= bukt[i]
+            for count in freq:
+                if count:
+                    ways *= count_combinations(left, count, k)
+                    if ways > k:
+                        return ways
+                    left -= count
+
             return ways
 
-        left_chars = []
-        start_index = 1
+        result = []
+        rank = 1
 
-        for pos in range(partn):
-            for i in range(26):
-                if bukt[i] == 0:
+        for _ in range(half):
+            for ch in range(26):
+                if freq[ch] == 0:
                     continue
 
-                bukt[i] -= 1
+                freq[ch] -= 1
+                ways = count_permutations(half - len(result) - 1)
 
-                ways = permutations(partn - pos - 1)
-                if start_index + ways > k:
-                    left_chars.append(chr(i + 97))
+                if rank + ways > k:
+                    result.append(chr(ch + ord('a')))
                     break
 
-                bukt[i] += 1
-                start_index += ways
+                freq[ch] += 1
+                rank += ways
 
-        if len(left_chars) < partn:
+        if len(result) != half:
             return ""
 
-        mid = s[partn] if len(s) % 2 != 0 else ""
-        left_str = "".join(left_chars)
+        middle = s[half] if len(s) % 2 else ""
+        left = "".join(result)
 
-        return left_str + mid + left_str[::-1]
+        return left + middle + left[::-1]
