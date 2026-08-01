@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0396-rotate-function](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0396-rotate-function) |
+| [0486-predict-the-winner](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0628-maximum-product-of-three-numbers) |
 | [0874-walking-robot-simulation](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0874-walking-robot-simulation) |
 | [1260-shift-2d-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1260-shift-2d-grid) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0149-max-points-on-a-line](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0149-max-points-on-a-line) |
 | [0263-ugly-number](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0263-ugly-number) |
 | [0396-rotate-function](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0396-rotate-function) |
+| [0486-predict-the-winner](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0628-maximum-product-of-three-numbers) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1390-four-divisors](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1390-four-divisors) |
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0010-regular-expression-matching](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0010-regular-expression-matching) |
 | [0396-rotate-function](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0396-rotate-function) |
+| [0486-predict-the-winner](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0486-predict-the-winner) |
 | [1301-number-of-paths-with-max-score](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1301-number-of-paths-with-max-score) |
 | [1340-jump-game-v](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1871-jump-game-vii) |
@@ -420,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0010-regular-expression-matching) |
+| [0486-predict-the-winner](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0486-predict-the-winner) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -472,4 +476,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
