@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0628-maximum-product-of-three-numbers) |
 | [0874-walking-robot-simulation](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0874-walking-robot-simulation) |
+| [0877-stone-game](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0877-stone-game) |
 | [1260-shift-2d-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1288-remove-covered-intervals) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0396-rotate-function) |
 | [0486-predict-the-winner](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0877-stone-game) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1390-four-divisors](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1390-four-divisors) |
 | [1840-maximum-building-height](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1840-maximum-building-height) |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0010-regular-expression-matching) |
 | [0396-rotate-function](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0396-rotate-function) |
 | [0486-predict-the-winner](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0877-stone-game) |
 | [1301-number-of-paths-with-max-score](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1301-number-of-paths-with-max-score) |
 | [1340-jump-game-v](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1871-jump-game-vii) |
@@ -480,4 +483,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
