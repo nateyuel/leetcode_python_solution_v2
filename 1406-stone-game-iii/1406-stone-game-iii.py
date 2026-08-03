@@ -1,25 +1,18 @@
 class Solution:
     def stoneGameIII(self, stoneValue: List[int]) -> str:
-        n = len(stoneValue)
+        dp = [0, 0, 0]
 
-        @lru_cache(None)
-        def dp(i):
-            if i == n:
-                return 0
+        for i in range(len(stoneValue) - 1, -1, -1):
+            take = best = -float("inf")
 
-            take = 0
-            res = -float("inf")
+            for j in range(i, min(i + 3, len(stoneValue))):
+                take = stoneValue[j] if j == i else take + stoneValue[j]
+                best = max(best, take - dp[(j + 1) % 3])
 
-            for j in range(i, min(i + 3, n)):
-                take += stoneValue[j]
-                res = max(res, take - dp(j + 1))
+            dp[i % 3] = best
 
-            return res
-
-        score = dp(0)
-
-        if score > 0:
+        if dp[0] > 0:
             return "Alice"
-        if score < 0:
+        if dp[0] < 0:
             return "Bob"
         return "Tie"
