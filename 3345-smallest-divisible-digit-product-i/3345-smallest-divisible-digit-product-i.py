@@ -4,8 +4,9 @@ class Solution:
         while True:
             prd = 1
             m = n
+            
             while m >= 10:
-                prd *= (m % 10)
+                prd *= m % 10
                 m //= 10
 
             prd *= m
