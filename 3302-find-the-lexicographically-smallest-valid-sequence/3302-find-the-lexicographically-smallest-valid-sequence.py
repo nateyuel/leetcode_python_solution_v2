@@ -1,6 +1,7 @@
 class Solution:
     def validSequence(self, word1: str, word2: str) -> List[int]:
-        n, m = len(word1), len(word2)
+        n = len(word1)
+        m = len(word2)
         last = [-1] * m
         j = m - 1
 
@@ -16,7 +17,8 @@ class Solution:
             if j == m:
                 break
 
-            if ch == word2[j] or (not skip and (j == m - 1 or i < last[j + 1])):
+            if ch == word2[j] or (not skip and \
+               (j == m - 1 or i < last[j + 1])):
                 skip += ch != word2[j]
                 res.append(i)
                 j += 1
