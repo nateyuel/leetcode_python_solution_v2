@@ -1,15 +1,15 @@
 class Solution:
     def missingInteger(self, nums: List[int]) -> int:
-        tot = nums[0]
+        prfx_len = 1
+        num_set = set(nums)
 
-        for a, b in pairwise(nums):
-            if b == a + 1:
-                tot += b
+        for prev, curr in zip(nums, nums[1:]):
+            if curr == prev + 1:
+                prfx_len += 1
             else:
                 break
 
-        num_set = set(nums)
-
+        tot = (nums[prfx_len - 1] + nums[0]) * prfx_len // 2
         while tot in num_set:
             tot += 1
 
