@@ -7,20 +7,20 @@
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
     
-        def helper(root):
-            if not root:
+        def helper(node):
+            if not node:
                 return [None]
 
             arr = []
-            queue = deque([root])
+            queue = deque([node])
             while queue:
                 for _ in range(len(queue)):
-                    node = queue.popleft()
+                    poped = queue.popleft()
 
-                    if node:
-                        arr.append(node.val)
-                        queue.append(node.left)
-                        queue.append(node.right)
+                    if poped:
+                        arr.append(poped.val)
+                        queue.append(poped.left)
+                        queue.append(poped.right)
                     else:
                         arr.append(None)
 
