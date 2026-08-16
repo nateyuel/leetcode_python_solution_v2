@@ -1,14 +1,12 @@
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         count = Counter(s)
-        mid = ""
-        result = 0
+        result = 1 if any(frq % 2 for frq in count.values()) else 0
 
-        for ch, frq in count.items():
-            if mid == "" and frq % 2 != 0:
-                mid = ch
-                result += 1
-
-            result += (frq // 2) * 2
+        for frq in count.values():
+            if frq % 2:
+                result += frq - 1
+            else:
+                result += frq
 
         return result
