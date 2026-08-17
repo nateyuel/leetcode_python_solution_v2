@@ -183,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0010-regular-expression-matching) |
 | [0392-is-subsequence](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0392-is-subsequence) |
 | [0409-longest-palindrome](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0409-longest-palindrome) |
+| [0520-detect-capital](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0520-detect-capital) |
 | [0657-robot-return-to-origin](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0657-robot-return-to-origin) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1189-maximum-number-of-balloons) |
