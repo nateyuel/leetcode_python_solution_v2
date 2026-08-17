@@ -3,8 +3,8 @@ class Solution:
         count_cap = 0
         n = len(word)
 
-        for ch in word:
-            if ch.isupper():
+        for idx in range(n):
+            if word[idx].isupper():
                 count_cap += 1
         
         if n == count_cap or count_cap == 0:
