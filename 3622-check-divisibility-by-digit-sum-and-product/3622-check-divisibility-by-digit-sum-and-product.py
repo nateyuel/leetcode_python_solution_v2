@@ -12,5 +12,6 @@ class Solution:
 
         d_sum += m
         d_prod *= m
+        res = False if n % (d_sum + d_prod) else True
 
-        return False if n % (d_sum + d_prod) else True
+        return res
