@@ -17,6 +17,6 @@ class Solution:
         min_idx = min(idx_1, idx_2)
         max_idx = max(idx_1, idx_2)
 
-        res = min(max_idx + 1, n - min_idx, min_idx + 1 + n - max_idx)
+        res = min(max_idx + 1, n - min_idx, (min_idx + 1) + (n - max_idx))
 
         return res
