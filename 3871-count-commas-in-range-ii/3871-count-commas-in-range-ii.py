@@ -4,16 +4,23 @@ class Solution:
             return 0
         
         result = 0
+        limit = [999, 999999, 999999999, 999999999999, 999999999999999]
+        idx = 0
 
-        if n > 999:
-            result += n - 999
-        if n > 999999:
-            result += n - 999999
-        if n > 999999999:
-            result += n - 999999999
-        if n > 999999999999:
-            result += n - 999999999999
-        if n > 999999999999999:
-            result += n - 999999999999999
+        if n > limit[idx]:
+            result += n - limit[idx]
+            idx += 1
+        if n > limit[idx]:
+            result += n - limit[idx]
+            idx += 1
+        if n > limit[idx]:
+            result += n - limit[idx]
+            idx += 1
+        if n > limit[idx]:
+            result += n - limit[idx]
+            idx += 1
+        if n > limit[idx]:
+            result += n - limit[idx]
+            idx += 1
         
         return result
